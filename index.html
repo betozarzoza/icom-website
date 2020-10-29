@@ -13,6 +13,9 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Slick Modals stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/sm.css" media="screen" />
+
 </head>
 
 <body>
@@ -27,8 +30,6 @@
             </div>
         </div>
     </div>
-
-
 
 
     <!--====================  header area ====================-->
@@ -91,7 +92,17 @@
     </div>
     <!--====================  End of header area  ====================-->
 
-
+    <!-- ========== START COPYING HERE ========== -->
+		<div id="popup-1" class="slickModal">
+			<div class="window">
+				<!-- Your popup content -->
+				<a href="#" target="_blank" class="closeModal setCookie-1">
+					<img width="470px" height="394px" src="images/promo1.png" />
+				</a>
+				<!-- / Your popup content -->
+			</div>
+		</div>
+		<!-- ========== END COPYING HERE ========== -->
 
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
@@ -693,6 +704,7 @@
     <!-- jQuery JS -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/jquery-migrate-3.3.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slick-modals.min.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>

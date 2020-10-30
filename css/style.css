@@ -2549,7 +2549,7 @@ input[type="checkbox"] {
 }
 
 .header__logo > a img {
-  width: 160px;
+  width: 300px;
 }
 
 .header__logo .dark-logo {
@@ -4748,7 +4748,7 @@ input[type="checkbox"] {
 =            08. Button Css           =
 =============================================*/
 .ht-btn {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 500;
   border-style: solid;
   border-radius: 5px;
